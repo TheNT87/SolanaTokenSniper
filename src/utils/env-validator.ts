@@ -29,7 +29,7 @@ export function validateEnv(): EnvConfig {
       throw new Error(`🚫 ${envVar} must start with ${protocol}`);
     }
     if (checkApiKey && value) {
-      const apiKey = url.searchParams.get("api-key");
+      const apiKey = url.searchParams.get("api_key");
       if (!apiKey || apiKey.trim() === "") {
         throw new Error(`🚫 The 'api-key' parameter is missing or empty in the URL: ${value}`);
       }
