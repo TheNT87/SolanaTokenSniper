@@ -8,7 +8,7 @@ export const config = {
       instruction: "Program log: Instruction: CreatePool",
     },
     {
-      enabled: false,
+      enabled: true,
       id: "rad1",
       name: "Raydium",
       program: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
@@ -23,13 +23,13 @@ export const config = {
   token_buy: {
     provider: "sniperoo",
     sol_amount: 0.1, // Amount of SOL to spend
-    play_sound: true, // Works only on windows
+    play_sound: false, // Works only on windows
     play_sound_text: "Order Filled!",
   },
   token_sell: {
     enabled: true, // If set to true, the bot will sell the token via Sniperoo API
     stop_loss_percent: 15,
-    take_profit_percent: 50,
+    take_profit_percent: 35,
   },
   checks: {
     simulation_mode: false,
