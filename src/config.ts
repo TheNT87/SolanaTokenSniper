@@ -1,7 +1,7 @@
 export const config = {
   liquidity_pool: [
     {
-      enabled: true,
+      enabled: false,
       id: "pump1",
       name: "pumpswap",
       program: "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
